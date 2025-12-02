@@ -24,4 +24,5 @@ share/python-wheels/
 MANIFEST
 
 # data 
-./neurite-oasis.v1.0
+neurite-oasis.v1.0/
+neurite-oasis.2d.v1.0/
