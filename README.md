@@ -24,12 +24,13 @@ Repo này mở rộng code chính thức để hỗ trợ:
 
 ## 📁 Cấu trúc thư mục
 
+```plaintext
 ├── scripts/
 │ ├── train_seg.py # Huấn luyện mô hình sử dụng dữ liệu phân đoạn
 | ├── train.py # Huấn luyện mô hình không sử dụng dữ liệu phân đoạn
 | ├── test_seg.py # Đánh giá mô hình trên các cặp ảnh với mô hình sử dụng phân đoạn
 │ ├── test.py # Đánh giá mô hình trên các cặp ảnh với mô hình không sử dụng phân đoạn
-| ├── register_seg.py # Đăng ký một cặp ảnh, xuất warp và ảnh đã đăng ký với mô hình sử dụng phân đoạn  
+| ├── register_seg.py # Đăng ký một cặp ảnh, xuất warp và ảnh đã đăng ký với mô hình sử dụng phân đoạn
 │ ├── register.py # Đăng ký một cặp ảnh, xuất warp và ảnh đã đăng ký với mô hình không sử dụng phân đoạn
 ├── voxelmorph/ # Các file code mô hình chính: mạng neuron, hàm loss ....
 ├── utils/ # Hàm hỗ trợ (trực quan hóa, I/O, metrics)
@@ -37,6 +38,7 @@ Repo này mở rộng code chính thức để hỗ trợ:
 │ ├── visualize.ipynb # File demo đăng ký ảnh và hiển thị kết quả trên các model đã train
 ├── setup.py
 └── README.md
+```
 
 ## 🚀 Huấn luyện
 
